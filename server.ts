@@ -6,7 +6,7 @@ import { MercadoPagoConfig, Preference } from "mercadopago";
 import { db } from "./server/db.js";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 8080;
 
 // Mercado Pago In-Memory Settings Store with env fallback
 let mpSettings = {
