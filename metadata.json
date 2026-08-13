@@ -1,0 +1,6 @@
+{
+  "name": "Dr Tecno",
+  "description": "E-commerce tecnológico avanzado con catálogo, carrito, servicio técnico y panel de administración.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
